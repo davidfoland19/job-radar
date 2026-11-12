@@ -271,23 +271,68 @@ def write_csv(jobs):
             w.writerow({**j, "new": "NEW" if j["new"] else ""})
 
 
+ROLE_GROUPS = [   # first match wins
+    ("Account Manager", ["account manager"]),
+    ("Biz Dev / Partnerships", ["business development", "partnership", "partner", "channel", "alliances"]),
+    ("Enterprise AE", ["enterprise", "strategic", "major account", "named account"]),
+    ("Mid-Market AE", ["mid-market", "mid market", "commercial", "corporate", "growth"]),
+    ("SMB / Founding AE", ["smb", "small business", "founding", "startup"]),
+    ("Account Executive", ["account executive", " ae ", "gtm"]),
+]
+LOC_GROUPS = [
+    ("Denver", ["denver", "colorado", "boulder", "lakewood"]),
+    ("NYC", ["new york", "nyc", "manhattan", "brooklyn"]),
+    ("Remote", ["remote", "anywhere", "work from home", "united states", "usa", "us"]),
+]
+
+
+def role_group(title):
+    t = f" {title.lower()} "
+    for name, words in ROLE_GROUPS:
+        if any(w in t for w in words):
+            return name
+    return "Other sales"
+
+
+def loc_groups(loc):
+    low = loc.lower()
+    return [name for name, words in LOC_GROUPS if has_any(low, words)] or ["Other US"]
+
+
 def write_html(jobs, report):
     now = datetime.now().strftime("%b %d, %Y %I:%M %p")
     new_count = sum(1 for j in jobs if j["new"])
     companies_hit = len({j["company"] for j in jobs})
-    rows = []
+    role_counts, loc_counts, rows = {}, {}, []
     for j in jobs:
+        rg, lg = role_group(j["title"]), loc_groups(j["location"])
+        role_counts[rg] = role_counts.get(rg, 0) + 1
+        for g in lg:
+            loc_counts[g] = loc_counts.get(g, 0) + 1
         e = {k: html.escape(str(v)) for k, v in j.items()}
         badge = "<span class=new>NEW</span>" if j["new"] else ""
         tag = f"<div class=tag>{e['status']}</div>" if j["status"] else ""
+        chips = "".join(f"<span class=chip>{html.escape(g)}</span>" for g in lg)
         rows.append(
-            f'<tr data-new="{int(j["new"])}">'
+            f'<tr data-new="{int(j["new"])}" data-role="{html.escape(rg)}" data-loc="{html.escape("|".join(lg))}">'
             f'<td>{badge}</td>'
             f'<td class=num>{j["score"]}</td>'
             f'<td><b>{e["company"]}</b>{tag}</td>'
-            f'<td><a href="{e["url"]}" target="_blank" rel="noopener">{e["title"]}</a></td>'
-            f'<td>{e["location"]}</td><td>{e["posted"]}</td><td class=muted>{e["source"]}</td></tr>'
+            f'<td><a href="{e["url"]}" target="_blank" rel="noopener">{e["title"]}</a><div class=tag>{html.escape(rg)}</div></td>'
+            f'<td>{e["location"]}<div>{chips}</div></td><td>{e["posted"]}</td><td class=muted>{e["source"]}</td></tr>'
         )
+
+    def buttons(group, counts, order):
+        out = [f'<button class="pill on" data-g="{group}" data-v="all">All <i>{len(jobs)}</i></button>']
+        for name in order:
+            if counts.get(name):
+                out.append(f'<button class=pill data-g="{group}" data-v="{html.escape(name)}">{html.escape(name)} <i>{counts[name]}</i></button>')
+        return "".join(out)
+
+    role_order = ["Enterprise AE", "Mid-Market AE", "SMB / Founding AE", "Account Executive",
+                  "Account Manager", "Biz Dev / Partnerships", "Other sales"]
+    role_btns = buttons("role", role_counts, role_order)
+    loc_btns = buttons("loc", loc_counts, ["Remote", "Denver", "NYC", "Other US"])
     found = "".join(f"<li><b>{html.escape(n)}</b> — {html.escape(s)}</li>" for n, s in report if s)
     missing = ", ".join(html.escape(n) for n, s in report if not s) or "none"
 
@@ -299,26 +344,40 @@ def write_html(jobs, report):
 main{{max-width:1150px;margin:0 auto;padding:28px 20px}}h1{{margin:0;font-size:22px}}.sub{{color:var(--muted);margin:4px 0 20px}}
 .kpis{{display:flex;gap:12px;margin-bottom:18px;flex-wrap:wrap}}.kpi{{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px 16px;min-width:140px}}
 .kpi b{{display:block;font-size:24px}}.kpi span{{color:var(--muted);font-size:12px}}
-.bar{{display:flex;gap:10px;margin-bottom:12px;flex-wrap:wrap}}input,select{{padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}}input{{flex:1;min-width:220px}}
+.row{{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin-bottom:10px}}.lbl{{font-size:12px;color:var(--muted);width:64px}}
+.pill{{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font:inherit;cursor:pointer;color:var(--ink)}}
+.pill i{{font-style:normal;color:var(--muted);font-size:12px;margin-left:2px}}.pill.on{{background:var(--accent);border-color:var(--accent);color:#fff}}.pill.on i{{color:#ccfbf1}}
+.bar{{display:flex;gap:10px;margin:14px 0 12px;flex-wrap:wrap}}input,select{{padding:8px 10px;border:1px solid var(--line);border-radius:8px;font:inherit;background:#fff}}input{{flex:1;min-width:220px}}
 table{{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:10px;overflow:hidden}}
 th,td{{text-align:left;padding:9px 12px;border-bottom:1px solid var(--line);vertical-align:top}}th{{background:#f5f5f4;font-size:12px;color:var(--muted);cursor:pointer;user-select:none}}
 a{{color:var(--accent);text-decoration:none}}a:hover{{text-decoration:underline}}.num{{font-variant-numeric:tabular-nums}}.muted{{color:var(--muted)}}
 .new{{background:#ccfbf1;color:#115e59;font-size:11px;font-weight:600;padding:2px 6px;border-radius:4px}}.tag{{font-size:11px;color:var(--muted)}}
-details{{margin-top:18px;color:var(--muted)}}
+.chip{{display:inline-block;font-size:11px;background:#f5f5f4;border:1px solid var(--line);border-radius:4px;padding:0 5px;margin:3px 4px 0 0;color:var(--muted)}}
+#count{{color:var(--muted);font-size:12px;margin-bottom:8px}}details{{margin-top:18px;color:var(--muted)}}
+@media (max-width:700px){{th:nth-child(2),td:nth-child(2),th:nth-child(7),td:nth-child(7){{display:none}}.lbl{{width:100%}}}}
 </style></head><body><main>
 <h1>Job Radar</h1><div class=sub>Updated {now} · Greenhouse, Lever, Ashby + open-web search</div>
 <div class=kpis><div class=kpi><b>{len(jobs)}</b><span>matching roles</span></div>
 <div class=kpi><b>{new_count}</b><span>new since last run</span></div>
 <div class=kpi><b>{companies_hit}</b><span>companies hiring</span></div></div>
-<div class=bar><input id=q placeholder="Filter by company, title, location…">
-<select id=f><option value=all>All roles</option><option value=new>New only</option></select></div>
+<div class=row><span class=lbl>Role</span>{role_btns}</div>
+<div class=row><span class=lbl>Location</span>{loc_btns}</div>
+<div class=bar><input id=q placeholder="Search company, title, location…">
+<select id=f><option value=all>All postings</option><option value=new>New only</option></select></div>
+<div id=count></div>
 <table id=t><thead><tr><th></th><th>Score</th><th>Company</th><th>Role</th><th>Location</th><th>Posted</th><th>Source</th></tr></thead>
 <tbody>{''.join(rows) or '<tr><td colspan=7 class=muted>No matching roles. Loosen title_keywords in companies.json.</td></tr>'}</tbody></table>
 <details><summary>Board coverage</summary><ul>{found}</ul><p>Not found on any board (fix the slug in companies.json): {missing}</p></details>
 </main><script>
-const q=document.getElementById('q'),f=document.getElementById('f'),rows=[...document.querySelectorAll('#t tbody tr')];
-function apply(){{const s=q.value.toLowerCase();rows.forEach(r=>{{const ok=r.textContent.toLowerCase().includes(s)&&(f.value==='all'||r.dataset.new==='1');r.style.display=ok?'':'none'}})}}
-q.oninput=apply;f.onchange=apply;
+const q=document.getElementById('q'),f=document.getElementById('f'),cnt=document.getElementById('count');
+const rows=[...document.querySelectorAll('#t tbody tr[data-role]')];const sel={{role:'all',loc:'all'}};
+function apply(){{const s=q.value.toLowerCase();let n=0;rows.forEach(r=>{{
+const ok=r.textContent.toLowerCase().includes(s)&&(f.value==='all'||r.dataset.new==='1')
+&&(sel.role==='all'||r.dataset.role===sel.role)&&(sel.loc==='all'||r.dataset.loc.split('|').includes(sel.loc));
+r.style.display=ok?'':'none';if(ok)n++}});cnt.textContent='Showing '+n+' of '+rows.length+' roles'}}
+document.querySelectorAll('.pill').forEach(b=>b.onclick=()=>{{document.querySelectorAll('.pill[data-g="'+b.dataset.g+'"]').forEach(x=>x.classList.remove('on'));
+b.classList.add('on');sel[b.dataset.g]=b.dataset.v;apply()}});
+q.oninput=apply;f.onchange=apply;apply();
 document.querySelectorAll('#t th').forEach((th,i)=>th.onclick=()=>{{const tb=document.querySelector('#t tbody');const dir=th.dataset.d=th.dataset.d==='1'?'-1':'1';
 [...tb.rows].sort((a,b)=>{{const x=a.cells[i].innerText,y=b.cells[i].innerText;const nx=+x,ny=+y;return (isNaN(nx)||isNaN(ny)?x.localeCompare(y):nx-ny)*dir}}).forEach(r=>tb.appendChild(r))}});
 </script></body></html>"""
@@ -337,7 +396,7 @@ def main():
             seen = set(json.load(f))
     first_run = not seen
 
-    print("Job Radar v5 (JSearch v5 support)")
+    print("Job Radar v6 (role + location filters)")
     print(f"Checking {len(cfg['companies'])} companies…")
     with ThreadPoolExecutor(max_workers=16) as ex:
         results = list(ex.map(fetch_company, cfg["companies"]))
