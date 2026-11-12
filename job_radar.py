@@ -233,7 +233,11 @@ def location_ok(raw, cfg, title=""):
         return False
     if has_any(loc, cfg["cities"]):
         return True
-    if not has_any(loc, cfg["remote_words"]):
+    # "United States" alone counts as remote-US; a US city alone (e.g. "Cleveland, OH") does not
+    if re.sub(r"[^a-z.]", "", loc) in ("unitedstates", "usa", "us", "u.s.", "u.s"):
+        return True
+    remote_words = [w for w in cfg["remote_words"] if w.lower() not in US_WORDS]
+    if not has_any(loc, remote_words):
         return False
     if looks_us(raw):
         return True
@@ -242,8 +246,29 @@ def location_ok(raw, cfg, title=""):
     return leftover == ""
 
 
+# Built-in junk filters (add more in companies.json: exclude_publishers / exclude_companies)
+BLOCKED_PUBLISHERS = ["remote quest jobs", "keyopenings", "jobilize", "whatjobs", "jobsora", "jobs2careers"]
+BLOCKED_COMPANIES = ["remote quest jobs", "keyopenings", "staffing", "recruiting", "recruitment", "talent solutions",
+                     "executive search", "jobleads", "confidential", "hiring now"]
+EXTRA_EXCLUDE_TITLE = ["latin america", "latam", "oncology", "medical device", "pharmaceutical", "clinical",
+                       "insurance agent", "life insurance", "real estate", "mortgage", "solar", "commission only",
+                       "1099", "brand marketing"]
+
+
+def is_junk(job, cfg):
+    company = job["company"].lower()
+    publisher = job["source"].lower().replace("search · ", "") if job["source"].startswith("Search") else ""
+    if publisher and any(p in publisher for p in BLOCKED_PUBLISHERS + [x.lower() for x in cfg.get("exclude_publishers", [])]):
+        return True
+    if any(c in company for c in BLOCKED_COMPANIES + [x.lower() for x in cfg.get("exclude_companies", [])]):
+        return True
+    return False
+
+
 def score(job, cfg):
     t = job["title"].lower()
+    if is_junk(job, cfg) or any(x in t for x in EXTRA_EXCLUDE_TITLE):
+        return 0
     raw_loc = job["location"]
     loc = raw_loc.lower()
     if any(x.lower() in t for x in cfg["exclude_title"]):
@@ -396,7 +421,7 @@ def main():
             seen = set(json.load(f))
     first_run = not seen
 
-    print("Job Radar v6 (role + location filters)")
+    print("Job Radar v7 (junk filter on)")
     print(f"Checking {len(cfg['companies'])} companies…")
     with ThreadPoolExecutor(max_workers=16) as ex:
         results = list(ex.map(fetch_company, cfg["companies"]))
