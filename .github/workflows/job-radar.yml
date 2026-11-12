@@ -1,0 +1,53 @@
+name: Job Radar
+
+on:
+  schedule:
+    - cron: "0 14 * * 1-5"   # 7am Denver time (14:00 UTC), Monday–Friday
+  workflow_dispatch:          # adds a "Run workflow" button so you can run it any time
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    env:
+      TZ: America/Denver
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Load last run (for NEW tags)
+        uses: actions/cache/restore@v4
+        with:
+          path: seen_jobs.json
+          key: seen-${{ github.run_id }}
+          restore-keys: seen-
+
+      - name: Run Job Radar
+        run: python job_radar.py --no-open
+        env:
+          JSEARCH_API_KEY: ${{ secrets.JSEARCH_API_KEY }}
+
+      - name: Save this run
+        uses: actions/cache/save@v4
+        with:
+          path: seen_jobs.json
+          key: seen-${{ github.run_id }}
+
+      - name: Prepare site
+        run: |
+          mkdir _site
+          cp dashboard.html _site/index.html
+          cp jobs.csv _site/jobs.csv
+
+      - uses:
