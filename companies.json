@@ -1,0 +1,1123 @@
+{
+  "jsearch_api_key": "PASTE_YOUR_RAPIDAPI_KEY_HERE",
+  "search_date_posted": "3days",
+  "searches": [
+    "mid-market account executive SaaS remote",
+    "account executive SaaS Denver, CO",
+    "account executive SaaS New York hybrid",
+    "enterprise account executive HR tech remote",
+    "founding account executive startup remote"
+  ],
+  "title_keywords": [
+    "account executive",
+    "sales",
+    "business development",
+    "account manager",
+    "gtm"
+  ],
+  "preferred_title": [
+    "account executive",
+    "mid-market",
+    "mid market",
+    "enterprise",
+    "founding"
+  ],
+  "exclude_title": [
+    "engineer",
+    "operations",
+    "enablement",
+    "intern",
+    "sdr",
+    "bdr",
+    "development representative",
+    "sales development",
+    "director",
+    "vp",
+    "vice president",
+    "head of",
+    "analyst",
+    "solutions consultant",
+    "sales engineer"
+  ],
+  "cities": [
+    "new york",
+    "nyc",
+    "manhattan",
+    "brooklyn",
+    "denver",
+    "colorado",
+    "boulder",
+    "lakewood"
+  ],
+  "remote_words": [
+    "remote",
+    "anywhere",
+    "united states",
+    "usa",
+    "us",
+    "u.s.",
+    "work from home"
+  ],
+  "exclude_locations": [
+    "uk",
+    "united kingdom",
+    "london",
+    "england",
+    "ireland",
+    "dublin",
+    "emea",
+    "europe",
+    "germany",
+    "berlin",
+    "france",
+    "paris",
+    "spain",
+    "netherlands",
+    "amsterdam",
+    "poland",
+    "portugal",
+    "israel",
+    "tel aviv",
+    "india",
+    "bangalore",
+    "apac",
+    "asia",
+    "singapore",
+    "japan",
+    "tokyo",
+    "australia",
+    "sydney",
+    "canada",
+    "toronto",
+    "vancouver",
+    "latam",
+    "brazil",
+    "mexico",
+    "argentina",
+    "colombia",
+    "philippines"
+  ],
+  "top_locations": [
+    "remote",
+    "denver",
+    "colorado"
+  ],
+  "companies": [
+    {
+      "name": "Workstreet",
+      "slugs": [
+        "workstreet"
+      ],
+      "status": "Interviewing"
+    },
+    {
+      "name": "FlowX.AI",
+      "slugs": [
+        "flowxai",
+        "flowx",
+        "flowx-ai"
+      ],
+      "status": "Interviewing"
+    },
+    {
+      "name": "Vendelux",
+      "slugs": [
+        "vendelux"
+      ],
+      "status": "Interviewing"
+    },
+    {
+      "name": "Blockworks",
+      "slugs": [
+        "blockworks"
+      ],
+      "status": "Interviewing"
+    },
+    {
+      "name": "Sparrow",
+      "slugs": [
+        "sparrow",
+        "sparrowhq"
+      ],
+      "status": "Interviewing"
+    },
+    {
+      "name": "BQE Software",
+      "slugs": [
+        "bqe",
+        "bqesoftware"
+      ],
+      "status": "Interviewing"
+    },
+    {
+      "name": "DX",
+      "slugs": [
+        "getdx",
+        "dx"
+      ],
+      "status": "Recruiter screen"
+    },
+    {
+      "name": "LastPass",
+      "slugs": [
+        "lastpass"
+      ],
+      "status": "Recruiter screen"
+    },
+    {
+      "name": "Hightouch",
+      "slugs": [
+        "hightouch"
+      ],
+      "status": "Applied"
+    },
+    {
+      "name": "GC AI",
+      "slugs": [
+        "gcai",
+        "gc-ai",
+        "getgcai"
+      ],
+      "status": "Applied"
+    },
+    {
+      "name": "Hakimo",
+      "slugs": [
+        "hakimo"
+      ],
+      "status": "Applied"
+    },
+    {
+      "name": "TeamSense",
+      "slugs": [
+        "teamsense"
+      ],
+      "status": "Applied"
+    },
+    {
+      "name": "Frontera",
+      "slugs": [
+        "frontera",
+        "fronterahealth"
+      ],
+      "status": "Applied"
+    },
+    {
+      "name": "SeatGeek",
+      "slugs": [
+        "seatgeek"
+      ],
+      "status": "Applied"
+    },
+    {
+      "name": "Vanta",
+      "slugs": [
+        "vanta"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Drata",
+      "slugs": [
+        "drata"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Rippling",
+      "slugs": [
+        "rippling"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Ramp",
+      "slugs": [
+        "ramp"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Gong",
+      "slugs": [
+        "gong",
+        "gongio"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Deel",
+      "slugs": [
+        "deel"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Airtable",
+      "slugs": [
+        "airtable"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Asana",
+      "slugs": [
+        "asana"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Brex",
+      "slugs": [
+        "brex"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Carta",
+      "slugs": [
+        "carta"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Datadog",
+      "slugs": [
+        "datadog"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Figma",
+      "slugs": [
+        "figma"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Gusto",
+      "slugs": [
+        "gusto"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Lattice",
+      "slugs": [
+        "lattice"
+      ],
+      "status": ""
+    },
+    {
+      "name": "MongoDB",
+      "slugs": [
+        "mongodb"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Okta",
+      "slugs": [
+        "okta"
+      ],
+      "status": ""
+    },
+    {
+      "name": "PagerDuty",
+      "slugs": [
+        "pagerduty"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Samsara",
+      "slugs": [
+        "samsara"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Toast",
+      "slugs": [
+        "toast"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Twilio",
+      "slugs": [
+        "twilio"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Cloudflare",
+      "slugs": [
+        "cloudflare"
+      ],
+      "status": ""
+    },
+    {
+      "name": "GitLab",
+      "slugs": [
+        "gitlab"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Braze",
+      "slugs": [
+        "braze"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Amplitude",
+      "slugs": [
+        "amplitude"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Mixpanel",
+      "slugs": [
+        "mixpanel"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Sprout Social",
+      "slugs": [
+        "sproutsocial"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Justworks",
+      "slugs": [
+        "justworks"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Culture Amp",
+      "slugs": [
+        "cultureamp"
+      ],
+      "status": ""
+    },
+    {
+      "name": "15Five",
+      "slugs": [
+        "15five"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Leapsome",
+      "slugs": [
+        "leapsome"
+      ],
+      "status": ""
+    },
+    {
+      "name": "HiBob",
+      "slugs": [
+        "hibob"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Remote.com",
+      "slugs": [
+        "remotecom",
+        "remote"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Oyster",
+      "slugs": [
+        "oysterhr",
+        "oyster"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Deputy",
+      "slugs": [
+        "deputy"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Homebase",
+      "slugs": [
+        "joinhomebase",
+        "homebase"
+      ],
+      "status": ""
+    },
+    {
+      "name": "When I Work",
+      "slugs": [
+        "wheniwork"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Legion",
+      "slugs": [
+        "legiontech",
+        "legion"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Workstream",
+      "slugs": [
+        "workstream"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Fountain",
+      "slugs": [
+        "fountain"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Paradox",
+      "slugs": [
+        "paradox"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Beekeeper",
+      "slugs": [
+        "beekeeper"
+      ],
+      "status": ""
+    },
+    {
+      "name": "ServiceTitan",
+      "slugs": [
+        "servicetitan"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Jobber",
+      "slugs": [
+        "jobber"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Housecall Pro",
+      "slugs": [
+        "housecallpro"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Buildertrend",
+      "slugs": [
+        "buildertrend"
+      ],
+      "status": ""
+    },
+    {
+      "name": "CompanyCam",
+      "slugs": [
+        "companycam"
+      ],
+      "status": ""
+    },
+    {
+      "name": "SafetyCulture",
+      "slugs": [
+        "safetyculture"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Motive",
+      "slugs": [
+        "gomotive",
+        "motive"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Verkada",
+      "slugs": [
+        "verkada"
+      ],
+      "status": ""
+    },
+    {
+      "name": "6sense",
+      "slugs": [
+        "6sense"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Outreach",
+      "slugs": [
+        "outreach"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Salesloft",
+      "slugs": [
+        "salesloft"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Apollo.io",
+      "slugs": [
+        "apolloio",
+        "apollo"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Clari",
+      "slugs": [
+        "clari"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Highspot",
+      "slugs": [
+        "highspot"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Seismic",
+      "slugs": [
+        "seismic"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Fivetran",
+      "slugs": [
+        "fivetran"
+      ],
+      "status": ""
+    },
+    {
+      "name": "dbt Labs",
+      "slugs": [
+        "dbtlabsinc",
+        "dbtlabs"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Retool",
+      "slugs": [
+        "retool"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Vercel",
+      "slugs": [
+        "vercel"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Supabase",
+      "slugs": [
+        "supabase"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Linear",
+      "slugs": [
+        "linear"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Notion",
+      "slugs": [
+        "notion"
+      ],
+      "status": ""
+    },
+    {
+      "name": "ClickUp",
+      "slugs": [
+        "clickup"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Smartsheet",
+      "slugs": [
+        "smartsheet"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Calendly",
+      "slugs": [
+        "calendly"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Ironclad",
+      "slugs": [
+        "ironcladhq",
+        "ironclad"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Checkr",
+      "slugs": [
+        "checkr"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Greenhouse",
+      "slugs": [
+        "greenhouse"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Ashby",
+      "slugs": [
+        "ashby"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Gem",
+      "slugs": [
+        "gem"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Multiplier",
+      "slugs": [
+        "multiplier"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Mercury",
+      "slugs": [
+        "mercury"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Navan",
+      "slugs": [
+        "navan",
+        "tripactions"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Tipalti",
+      "slugs": [
+        "tipalti"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Zip",
+      "slugs": [
+        "ziphq",
+        "zip"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Vendr",
+      "slugs": [
+        "vendr"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Tropic",
+      "slugs": [
+        "tropicapp",
+        "tropic"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Secureframe",
+      "slugs": [
+        "secureframe"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Thoropass",
+      "slugs": [
+        "thoropass"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Sprinto",
+      "slugs": [
+        "sprinto"
+      ],
+      "status": ""
+    },
+    {
+      "name": "1Password",
+      "slugs": [
+        "1password"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Snyk",
+      "slugs": [
+        "snyk"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Wiz",
+      "slugs": [
+        "wizinc",
+        "wiz"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Abnormal Security",
+      "slugs": [
+        "abnormalsecurity"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Huntress",
+      "slugs": [
+        "huntress"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Arctic Wolf",
+      "slugs": [
+        "arcticwolfnetworks"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Coalition",
+      "slugs": [
+        "coalition"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Attentive",
+      "slugs": [
+        "attentive"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Klaviyo",
+      "slugs": [
+        "klaviyo"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Gorgias",
+      "slugs": [
+        "gorgias"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Postscript",
+      "slugs": [
+        "postscript"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Iterable",
+      "slugs": [
+        "iterable"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Airship",
+      "slugs": [
+        "airship"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Front",
+      "slugs": [
+        "front"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Intercom",
+      "slugs": [
+        "intercom"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Zendesk",
+      "slugs": [
+        "zendesk"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Dialpad",
+      "slugs": [
+        "dialpad"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Aircall",
+      "slugs": [
+        "aircall"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Talkdesk",
+      "slugs": [
+        "talkdesk"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Grammarly",
+      "slugs": [
+        "grammarly"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Writer",
+      "slugs": [
+        "writer"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Glean",
+      "slugs": [
+        "gleanwork",
+        "glean"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Harvey",
+      "slugs": [
+        "harvey"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Sierra",
+      "slugs": [
+        "sierra"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Decagon",
+      "slugs": [
+        "decagon"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Clay",
+      "slugs": [
+        "clay"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Common Room",
+      "slugs": [
+        "commonroom"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Pave",
+      "slugs": [
+        "pave"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Paycor",
+      "slugs": [
+        "paycor"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Procore",
+      "slugs": [
+        "procore"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Flock Safety",
+      "slugs": [
+        "flocksafety"
+      ],
+      "status": ""
+    },
+    {
+      "name": "EliseAI",
+      "slugs": [
+        "eliseai"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Mesa",
+      "slugs": [
+        "mesa"
+      ],
+      "status": ""
+    },
+    {
+      "name": "ZoomInfo",
+      "slugs": [
+        "zoominfo"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Podium",
+      "slugs": [
+        "podium"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Weave",
+      "slugs": [
+        "weave"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Pendo",
+      "slugs": [
+        "pendo"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Gainsight",
+      "slugs": [
+        "gainsight"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Qualtrics",
+      "slugs": [
+        "qualtrics"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Strava",
+      "slugs": [
+        "strava"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Guild",
+      "slugs": [
+        "guild"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Spring Health",
+      "slugs": [
+        "springhealth"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Lyra Health",
+      "slugs": [
+        "lyrahealth"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Nava Benefits",
+      "slugs": [
+        "navabenefits"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Forma",
+      "slugs": [
+        "forma"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Benepass",
+      "slugs": [
+        "benepass"
+      ],
+      "status": ""
+    },
+    {
+      "name": "Compt",
+      "slugs": [
+        "compt"
+      ],
+      "status": ""
+    }
+  ]
+}
