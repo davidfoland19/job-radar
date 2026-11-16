@@ -1,29 +1,36 @@
 new,score,company,title,location,department,posted,source,status,url
-NEW,100,Byggfakta Norge,Remote Mid-Market SaaS Account Executive – $120K OTE,Anywhere (Remote),,2026-11-10,Search · JobLeads,,https://www.jobleads.com/us/job/remote-mid-market-saas-account-executive-120k-ote--united-states--ebaf4544b0b590690830c78cd13ac66c3
-NEW,100,Datadog,Enterprise Sales Executive (FED),"Maryland, USA, Remote; Virginia, USA, Remote",,2025-12-01,Greenhouse,,https://careers.datadoghq.com/detail/7421284/?gh_jid=7421284
-NEW,100,Datadog,Enterprise Security Sales Specialist,"District of Columbia, USA, Remote; North Carolina, USA, Remote",,2025-08-12,Greenhouse,,https://careers.datadoghq.com/detail/7132132/?gh_jid=7132132
-NEW,100,Datadog,Strategic Account Executive (FED),"District of Columbia, USA, Remote; Maryland, USA, Remote; Virginia, USA, Remote",,2026-08-19,Greenhouse,,https://careers.datadoghq.com/detail/8021535/?gh_jid=8021535
-NEW,100,"Engrain, Inc",AI-Driven SaaS Account Executive (Remote/Hybrid),"Greenwood Village, Colorado",,2026-11-10,Search · JobLeads,,https://www.jobleads.com/us/job/ai-driven-saas-account-executive-remote-hybrid--greenwood-village--e34aca482eb2937b60e877e339e7c4335
-NEW,100,HireAthletes,130K+ OTE SaaS Account Executive,"Denver, Colorado",,2026-11-10,Search · Jobrapido,,https://us.jobrapido.com/jobpreview/9148629195977392128
-NEW,100,InEvent,"Account Executive - SaaS/Event Tech, Remote, High Earning","Denver, Colorado",,2026-11-11,Search · BeBee,,https://bebee.com/us/jobs/account-executive-saas-event-tech-remote-high-earning-inevent-denver--lensa-7428_cdaa0eadb1d3ec3b2a9c25f5c55e38fdc471014e23fbec66e4da52bd580e438b
-NEW,100,Intellistack,Enterprise SaaS Account Executive – AI & Automation,"Westminster, Colorado",,2026-11-10,Search · Learn4Good,,https://www.learn4good.com/jobs/westminster/colorado/sales/5617331959/e/
-NEW,100,"Intuit, Inc.",Mid-Market SaaS Account Executive - AI ERP & Growth,"Arvada, Colorado",,2026-11-10,Search · Learn4Good,,https://www.learn4good.com/jobs/arvada/colorado/sales/5616975870/e/
-NEW,100,Lamar Health,Founding Enterprise AE — Shape GTM & Scale Revenue (Remote),Anywhere (Remote),,2026-11-11,Search · JobLeads,,https://www.jobleads.com/us/job/founding-enterprise-ae-shape-gtm-scale-revenue-remote--san-mateo--eb49f8a2dcd71e7a967e110e03e58e37c
-NEW,100,Prodigal,Remote Mid-Market Account Executive – AI Lending,Anywhere (Remote),,2026-11-10,Search · JobLeads,,https://www.jobleads.com/us/job/remote-mid-market-account-executive-ai-lending--mountain-view--e005d50900c32e3124669844361ef5dbb
-NEW,100,Samsara,Public Sector Major Account Executive,Remote - US,,2026-06-11,Greenhouse,,https://www.samsara.com/company/careers/roles/7612978?gh_jid=7612978
-NEW,100,Speedrun Talent Network,Strategic Mid‑Market SaaS Account Executive,"Denver, Colorado",,2026-11-10,Search · JobLeads,,https://www.jobleads.com/us/job/strategic-mid-market-saas-account-executive--denver--ef410cac570b3ff003f9732ca99b210b7
-NEW,100,TGTC,Founding Account Executive (Growth & Partnerships),Anywhere (Remote),,2026-11-12,Search · JobMESH,,https://jobmesh.io/job/01a1d0c0-60af-746a-8fb0-68deaf111380
-NEW,100,Toast,"Mid Market Account Executive, Toast Retail","Remote, United States",,2026-09-02,Greenhouse,,https://careers.toasttab.com/jobs?gh_jid=8173946
-NEW,75,Braze,"Account Executive, Enterprise Retail",New York City,,2026-07-21,Greenhouse,,https://job-boards.greenhouse.io/braze/jobs/8078035
-NEW,75,Braze,"Customer Account Executive, Strategic Enterprise",New York City,,2026-10-15,Greenhouse,,https://job-boards.greenhouse.io/braze/jobs/8285494
-NEW,75,Datadog,Strategic Account Executive,"New York, New York, USA",,2025-11-03,Greenhouse,,https://careers.datadoghq.com/detail/7131386/?gh_jid=7131386
-NEW,75,Fivetran,Partner Sales Manager,"Remote, California, United States, AMER",,2026-11-04,Greenhouse,,https://www.fivetran.com/careers/job?gh_jid=8196173003
-NEW,75,Navan,"Mid-Market Account Executive, M&E","New York, NY",,2026-10-21,Greenhouse,,https://navan.com/careers/openings?gh_jid=8311087
-NEW,75,Okta,"Strategic Account Executive, Auth0","Louisiana; New York, New York; North Carolina; South Carolina; Tennessee; Virginia",,2026-11-13,Greenhouse,,https://www.okta.com/company/careers/opportunity/8331195?gh_jid=8331195
-NEW,75,Virtual Vocations,B2B SaaS Sales Manager,"Denver, Colorado",,2026-11-12,Search · David Careers,,https://davidcareers.com/jobs/18955abfdad091608beacad4
-NEW,50,Braze,"Principal, Strategic AI Sales",New York City,,2026-09-09,Greenhouse,,https://job-boards.greenhouse.io/braze/jobs/8189650
-NEW,50,Datadog,Major Account Manager,"Boston, Massachusetts, USA; New York, New York, USA",,2025-12-17,Greenhouse,,https://careers.datadoghq.com/detail/7409198/?gh_jid=7409198
-NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://navan.com/careers/openings?gh_jid=8381986
+NEW,100,6sense,Advertising Account Executive,"United States, Remote",,2026-11-06,Greenhouse,,https://boards.greenhouse.io/6sense/jobs/8352604?gh_jid=8352604
+NEW,100,Ashby,"Sales Leader, Enterprise - Americas ",Remote - US,Sales,2026-11-15,Ashby,,https://jobs.ashbyhq.com/Ashby/ac5a2281-806d-4aed-b742-69527b3e4575
+NEW,100,Datadog,Enterprise Sales Executive (SLED),"Washington, USA, Remote",,2024-11-13,Greenhouse,,https://careers.datadoghq.com/detail/6379544/?gh_jid=6379544
+NEW,100,Datadog,Strategic Account Executive,"Texas, USA, Remote",,2025-08-12,Greenhouse,,https://careers.datadoghq.com/detail/7134079/?gh_jid=7134079
+NEW,100,Datadog,Strategic Account Executive (SLED),"California, USA, Remote",,2025-02-04,Greenhouse,,https://careers.datadoghq.com/detail/6430945/?gh_jid=6430945
+NEW,100,First Resonance,Account Executive: Emerging Hardtech (SMB/MM) (Remote),Anywhere (Remote),,2026-11-13,Search · Bandana.com,,https://bandana.com/jobs/e3cbf363-a5d6-48c8-bf00-7f0da6ec916c
+NEW,100,Fivetran,Enterprise Account Executive,"Remote, Texas, United States, AMER",,2026-10-21,Greenhouse,,https://www.fivetran.com/careers/job?gh_jid=8039971003
+NEW,100,Harvey,"Sales Manager, Mid-Market",New York (Remote),Go to Market,2026-11-16,Ashby,,https://jobs.ashbyhq.com/harvey/83a438ac-a6f8-4388-983a-ec95155a2604
+NEW,100,"Intuit, Inc.",Remote Mid-Market SaaS Account Executive | Impact,Anywhere (Remote),,2026-11-13,Search · Learn4Good,,https://www.learn4good.com/jobs/online_remote/sales/5633377797/e/
+NEW,100,Klaviyo,Commercial Account Executive,"Denver, CO",,2026-03-06,Greenhouse,,https://www.klaviyo.com/careers/jobs/7577985003?gh_jid=7577985003
+NEW,100,Okta,"Enterprise Account Executive, West",California Remote,,2026-11-13,Greenhouse,,https://www.okta.com/company/careers/opportunity/8354795?gh_jid=8354795
+NEW,100,Samsara,"Account Executive, Mid Market (Midwest)",Remote - US,,2026-02-12,Greenhouse,,https://www.samsara.com/company/careers/roles/7609126?gh_jid=7609126
+NEW,100,Sprout Social,"Account Executive, Strategic Enterprise",Remote US,,2026-11-06,Greenhouse,,https://sproutsocial.com/careers/open-positions/8359900/?gh_jid=8359900
+NEW,100,The Global Talent Co.,Founding Account Executive (Growth & Partnerships),Anywhere (Remote),,2026-11-13,Search · BeBee,,https://bebee.com/us/jobs/founding-account-executive-growth-partnerships-the-global-talent-co-san-francisco-bay-area--t7xk-937593607
+NEW,100,Twilio,Strategic Account Executive 4,Remote - US,,2026-11-16,Greenhouse,,https://job-boards.greenhouse.io/twilio/jobs/8356811
+NEW,100,Unknown,Account Executive – AI Recruiting for Startups,Anywhere (Remote),,2026-11-14,Search · JobLeads,,https://www.jobleads.com/us/job/account-executive-ai-recruiting-for-startups--united-states--e5f7033a7f7df4b2e07686b660702bd6f
+NEW,75,Braze,"Senior Account Executive, Strategic Enterprise MEGS",New York City,,2026-09-01,Greenhouse,,https://job-boards.greenhouse.io/braze/jobs/8140005
+NEW,75,Brex,"Account Executive, Small Business","New York, New York, United States",,2026-08-06,Greenhouse,,https://www.brex.com/careers/8688110002?gh_jid=8688110002
+NEW,75,Brex,Enterprise Account Executive II,"New York, New York, United States",,2024-11-15,Greenhouse,,https://www.brex.com/careers/7732133002?gh_jid=7732133002
+NEW,75,Carta,"Account Executive, Emerging","New York City, New York, United States",,2026-11-16,Greenhouse,,https://job-boards.greenhouse.io/carta/jobs/8205819003
+NEW,75,Gong,Mid-Market Account Executive,New York City,,2025-12-18,Greenhouse,,https://job-boards.greenhouse.io/gongio/jobs/4627234006
+NEW,75,Gong,Mid-Market Account Executive - Financial Services & Healthcare,New York City,,2026-02-18,Greenhouse,,https://job-boards.greenhouse.io/gongio/jobs/4655714006
+NEW,75,Motive,Sales Leadership Trainer,United States - Remote,,2026-11-13,Greenhouse,,https://job-boards.greenhouse.io/gomotive/jobs/8943188002
+NEW,75,Okta,"Enterprise Account Executive, Auth0","New York, New York; Pennsylvania; Washington, DC",,2026-10-13,Greenhouse,,https://www.okta.com/company/careers/opportunity/8248575?gh_jid=8248575
+NEW,75,Platzi,Remote Mid‑Market SaaS Sales Executive — Full Cycle,Anywhere (Remote),,2026-11-13,Search · JobLeads,,https://www.jobleads.com/us/job/remote-mid-market-saas-sales-executive-full-cycle--united-states--e44b7044f737ceade51cd0d0f2d254d46
+NEW,75,Samsara,Technical Account Manager,Remote - US; USA,,2026-10-23,Greenhouse,,https://www.samsara.com/company/careers/roles/8281716?gh_jid=8281716
+NEW,75,Verkada,"Account Executive, Territory (Mid-Market)","New York City, NY United States",,2023-11-10,Greenhouse,,https://job-boards.greenhouse.io/verkada/jobs/4103493007
+NEW,50,Braze,"Partner Sales Manager, Venture Capital",New York City,,2026-11-03,Greenhouse,,https://job-boards.greenhouse.io/braze/jobs/8350782
+NEW,50,Justworks,"Senior Product Marketing Manager, Monetization GTM","New York, New York",,2026-11-16,Greenhouse,,https://boards.greenhouse.io/justworks/jobs/8393792?gh_jid=8393792
+NEW,50,MongoDB,Senior Solutions Architect (Pre-Sales),New York City,,2026-10-22,Greenhouse,,https://www.mongodb.com/careers/job/?gh_jid=8311246
+NEW,50,Navan,Associate Account Manager,"New York, NY",,2026-05-19,Greenhouse,,https://navan.com/careers/openings?gh_jid=7834422
+NEW,50,Vercel,Senior Technical Account Manager,"Hybrid - San Francisco, New York City, Austin",,2026-07-10,Greenhouse,,https://job-boards.greenhouse.io/vercel/jobs/6112845004
 ,100,1Password,Senior Commercial Account Executive (San Francisco/Bay Area),United States (Remote),GTM,2026-10-29,Ashby,,https://jobs.ashbyhq.com/1password/febe5d7f-25c9-4d77-a184-0f99e748fe7f
 ,100,1Password,"Account Executive, Enterprise — Future Opportunities (San Francisco, Chicago, New York)",United States (Remote),GTM,2026-05-21,Ashby,,https://jobs.ashbyhq.com/1password/d91e63b2-abb3-4722-a1ec-280e81604b0b
 ,100,1Password,"Account Executive, SMB - Austin","Austin, TX (Remote)",GTM,2026-07-09,Ashby,,https://jobs.ashbyhq.com/1password/4d30b4e9-c586-458c-a982-70a6ca3289a1
@@ -33,7 +40,6 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,100,1Password,"Account Executive - Commercial (Mid-Market), San Francisco/Bay Area","San Francisco, CA (Remote)",GTM,2026-09-29,Ashby,,https://jobs.ashbyhq.com/1password/4c385433-be83-4338-ab0b-11e9fae5402a
 ,100,6sense,Senior Account Executive,"United States, Remote",,2026-06-18,Greenhouse,,https://boards.greenhouse.io/6sense/jobs/8015936?gh_jid=8015936
 ,100,6sense,Senior Advertising Account Executive,"United States, Remote",,2026-09-24,Greenhouse,,https://boards.greenhouse.io/6sense/jobs/8153824?gh_jid=8153824
-,100,Abnormal Security,"Account Executive, SLED (Sacramento only)",Remote - USA,,2026-10-12,Greenhouse,,https://abnormal.ai/careers/jobs/8017129003?gh_jid=8017129003
 ,100,Abnormal Security,Enterprise Account Executive - Chicago,Remote - USA,,2026-09-10,Greenhouse,,https://abnormal.ai/careers/jobs/7990482003?gh_jid=7990482003
 ,100,Abnormal Security,"Enterprise Account Executive, NYC",Remote - USA,,2026-10-12,Greenhouse,,https://abnormal.ai/careers/jobs/8016956003?gh_jid=8016956003
 ,100,Abnormal Security,Enterprise Account Executive (Philadelphia),Remote - USA,,2026-03-18,Greenhouse,,https://abnormal.ai/careers/jobs/7575005003?gh_jid=7575005003
@@ -48,9 +54,10 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,100,Ashby,Mid Market Account Executive - Americas (West),Remote - US,Sales,2026-08-12,Ashby,,https://jobs.ashbyhq.com/Ashby/92f723a8-6fb1-4314-a311-8fcf25ea286b
 ,100,Ashby,Enterprise Account Executive - Americas (East),Remote - US,Sales,2026-03-06,Ashby,,https://jobs.ashbyhq.com/Ashby/36df1986-8af2-4cc4-a96a-4f307d493ac0
 ,100,Ashby,Enterprise Account Executive - Americas (West),Remote - US,Sales,2026-03-06,Ashby,,https://jobs.ashbyhq.com/Ashby/9fba6b38-f324-49b1-ae3d-40894ad12bb1
-,100,Datadog,Commercial Account Executive,"Denver, Colorado, USA",,2019-05-16,Greenhouse,,https://careers.datadoghq.com/detail/1694375/?gh_jid=1694375
-,100,Datadog,Enterprise Sales Executive (SLED),"Illinois, USA, Remote; Michigan, USA, Remote; Texas, USA, Remote",,2025-12-29,Greenhouse,,https://careers.datadoghq.com/detail/7453039/?gh_jid=7453039
+,100,Datadog,Enterprise Sales Executive,"Florida, USA, Remote",,2026-01-13,Greenhouse,,https://careers.datadoghq.com/detail/7466155/?gh_jid=7466155
+,100,Datadog,Enterprise Sales Executive (FED),"Maryland, USA, Remote; Virginia, USA, Remote",,2025-12-01,Greenhouse,,https://careers.datadoghq.com/detail/7421284/?gh_jid=7421284
 ,100,Datadog,"Manager, Mid Market Sales","Denver, Colorado, USA",,2026-09-17,Greenhouse,,https://careers.datadoghq.com/detail/8191288/?gh_jid=8191288
+,100,Datadog,Strategic Account Executive (FED),"District of Columbia, USA, Remote; Maryland, USA, Remote; Virginia, USA, Remote",,2026-08-19,Greenhouse,,https://careers.datadoghq.com/detail/8021535/?gh_jid=8021535
 ,100,Dialpad,"Client Account Executive, Mid-Market","Denver, US",,2026-11-05,Greenhouse,,https://job-boards.greenhouse.io/dialpad/jobs/8932006002
 ,100,Forma,"Account Executive, Pre-Tax ",United States (Remote),Sales,2026-09-08,Ashby,,https://jobs.ashbyhq.com/forma/4e68b784-ec67-48ed-bbff-2647379b20eb
 ,100,GC AI,Enterprise Account Executive,Remote - United States,Sales,2026-05-22,Ashby,Applied,https://jobs.ashbyhq.com/gc-ai/7b115370-aead-4ea4-92df-4112c634c44a
@@ -83,11 +90,11 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,100,Glean,"Strategic Account Executive, Nashville",Remote - US,,2026-09-11,Greenhouse,,https://job-boards.greenhouse.io/gleanwork/jobs/4730794005
 ,100,Glean,"Strategic Account Executive, STL/KC",Remote - US,,2026-09-11,Greenhouse,,https://job-boards.greenhouse.io/gleanwork/jobs/4733352005
 ,100,Glean,"Strategic Federal Account Executive, SLED",Remote - US,,2026-09-23,Greenhouse,,https://job-boards.greenhouse.io/gleanwork/jobs/4736294005
-,100,Gong,"Commercial Account Executive, Land",Chicago | Salt Lake City | Remote (US),,2026-09-18,Greenhouse,,https://job-boards.greenhouse.io/gongio/jobs/4713055006
+,100,Gong,"Commercial Account Executive, Foundations",Chicago | Salt Lake City | Remote (US),,2026-09-18,Greenhouse,,https://job-boards.greenhouse.io/gongio/jobs/4713055006
 ,100,Gong,Enterprise+ Account Executive,Remote (US),,2026-10-31,Greenhouse,,https://job-boards.greenhouse.io/gongio/jobs/4726183006
 ,100,Gong,Enterprise Account Executive - Financial Services,Austin | Chicago | New York City | Salt Lake City | San Francisco | Remote (US),,2026-03-09,Greenhouse,,https://job-boards.greenhouse.io/gongio/jobs/4661626006
 ,100,Gong,Enterprise Account Executive - Healthcare ,Austin | Chicago | New York City | Salt Lake City | San Francisco | Remote (US),,2026-04-12,Greenhouse,,https://job-boards.greenhouse.io/gongio/jobs/4671828006
-,100,Gong,"Mid-Market Account Executive, Land",Chicago | Salt Lake City | Remote (US),,2026-09-18,Greenhouse,,https://job-boards.greenhouse.io/gongio/jobs/4714119006
+,100,Gong,"Mid-Market Account Executive, Foundations",Chicago | Salt Lake City | Remote (US),,2026-09-18,Greenhouse,,https://job-boards.greenhouse.io/gongio/jobs/4714119006
 ,100,Gong,"Sr. Manager, Enterprise Sales",Remote (US),,2026-10-26,Greenhouse,,https://job-boards.greenhouse.io/gongio/jobs/4713945006
 ,100,Gusto,Expansion Account Executive ,"Atlanta, GA - Hybrid; Denver, CO - Hybrid",,2026-08-04,Greenhouse,,https://job-boards.greenhouse.io/gusto/jobs/8092462
 ,100,Gusto,"Manager, Account Executive Platform Sales","Atlanta, GA - Hybrid; Denver, CO - Hybrid; Scottsdale, AZ - Hybrid",,2026-10-12,Greenhouse,,https://job-boards.greenhouse.io/gusto/jobs/8268021
@@ -111,12 +118,10 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,100,LastPass,"Account Executive, SMB","Hybrid - Denver, CO",,2026-11-09,Greenhouse,Recruiter screen,https://job-boards.greenhouse.io/lastpass/jobs/4752611005
 ,100,Linear,"Account Executive, Startups",North America (Remote),GTM,2025-11-14,Ashby,,https://jobs.ashbyhq.com/linear/c21af93e-210f-4969-8eaa-90fb16a5b720
 ,100,Mercury,Senior Account Executive - Credit & Lending Products,"San Francisco, CA, New York, NY, Portland, OR, or Remote within United States",,2026-10-16,Greenhouse,,https://job-boards.greenhouse.io/mercury/jobs/6220946004
-,100,Motive,Mid-Market Account Executive,United States - Remote,,2026-07-07,Greenhouse,,https://job-boards.greenhouse.io/gomotive/jobs/8608835002
 ,100,Motive,"Mid-Market Account Executive, Networks",United States - Remote,,2026-10-23,Greenhouse,,https://job-boards.greenhouse.io/gomotive/jobs/8912734002
 ,100,Motive,Mid-Market Regional Sales Manager,United States - Remote,,2026-11-10,Greenhouse,,https://job-boards.greenhouse.io/gomotive/jobs/8936601002
 ,100,Okta,Senior SMB New Business Account Executive ,"Chicago, Illinois; Colorado; Dallas, Texas; Texas",,2026-10-14,Greenhouse,,https://www.okta.com/company/careers/opportunity/8281740?gh_jid=8281740
 ,100,PagerDuty,Enterprise Account Executive (San Francisco),"Remote (USA - San Francisco, CA)",,2026-09-11,Greenhouse,,https://job-boards.greenhouse.io/pagerduty/jobs/6186221004
-,100,Qualtrics,Enterprise Account Executive - Business Services,United States (Remote),,2026-10-01,Greenhouse,,https://www.qualtrics.com/careers/us/en/job/8238370?gh_jid=8238370
 ,100,Qualtrics,Enterprise Account Executive - DoD/DoW,United States (Remote),,2026-11-05,Greenhouse,,https://www.qualtrics.com/careers/us/en/job/8318047?gh_jid=8318047
 ,100,Qualtrics,"Enterprise Account Executive - Financial Services, New York/Northeast",United States (Remote),,2026-10-09,Greenhouse,,https://www.qualtrics.com/careers/us/en/job/8247188?gh_jid=8247188
 ,100,Qualtrics,"Enterprise Account Executive - Financial Services, West",United States (Remote),,2026-06-10,Greenhouse,,https://www.qualtrics.com/careers/us/en/job/7991360?gh_jid=7991360
@@ -131,33 +136,32 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,100,Qualtrics,Higher Education Enterprise Sales Manager,United States (Remote),,2026-06-08,Greenhouse,,https://www.qualtrics.com/careers/us/en/job/7990814?gh_jid=7990814
 ,100,Samsara,"Account Executive, Commercial","Atlanta, Georgia, United States; Remote - US",,2026-09-03,Greenhouse,,https://www.samsara.com/company/careers/roles/8162034?gh_jid=8162034
 ,100,Samsara,"Account Executive, Mid Market (Northeast)",Remote - NY; Remote - US,,2026-02-12,Greenhouse,,https://www.samsara.com/company/careers/roles/7609147?gh_jid=7609147
-,100,Samsara,"Account Executive, Mid Market (TOLA)","Dallas, Texas, United States; Remote - TX",,2026-10-20,Greenhouse,,https://www.samsara.com/company/careers/roles/8304132?gh_jid=8304132
+,100,Samsara,"Account Executive, Mid Market (Southeast)","Atlanta, Georgia, United States; Remote - SC",,2026-10-20,Greenhouse,,https://www.samsara.com/company/careers/roles/8304486?gh_jid=8304486
+,100,Samsara,"Account Executive, Mid Market (West)",Remote - US,,2026-02-12,Greenhouse,,https://www.samsara.com/company/careers/roles/7609057?gh_jid=7609057
 ,100,Samsara,Core Enterprise Account Executive CST - Remote,Remote - IL; Remote - TX; Remote - US,,2026-10-26,Greenhouse,,https://www.samsara.com/company/careers/roles/8325426?gh_jid=8325426
 ,100,Samsara,Core Enterprise Account Executive EST/CST - Remote,Remote - US,,2026-10-26,Greenhouse,,https://www.samsara.com/company/careers/roles/8325412?gh_jid=8325412
 ,100,Samsara,Core Enterprise Account Executive EST- Remote,"Atlanta, Georgia, United States; Remote - FL; Remote - NY",,2026-10-26,Greenhouse,,https://www.samsara.com/company/careers/roles/8325419?gh_jid=8325419
 ,100,Samsara,Core Enterprise Account Executive Midwest,Remote - US,,2026-07-31,Greenhouse,,https://www.samsara.com/company/careers/roles/8099250?gh_jid=8099250
 ,100,Samsara,Core Enterprise Account Executive South East,"Atlanta, Georgia, United States; Remote - FL; Remote - US",,2026-08-05,Greenhouse,,https://www.samsara.com/company/careers/roles/7679100?gh_jid=7679100
 ,100,Samsara,Core Enterprise Account Executive TOLA,Remote - LA; Remote - US,,2026-08-07,Greenhouse,,https://www.samsara.com/company/careers/roles/7679053?gh_jid=7679053
-,100,Samsara,Enterprise Account Executive,Remote - TX; Remote - US,,2026-09-01,Greenhouse,,https://www.samsara.com/company/careers/roles/8170578?gh_jid=8170578
+,100,Samsara,Public Sector Major Account Executive,Remote - US,,2026-06-11,Greenhouse,,https://www.samsara.com/company/careers/roles/7612978?gh_jid=7612978
 ,100,Samsara,Select Major Account Executive (EST),Remote - US,,2026-06-01,Greenhouse,,https://www.samsara.com/company/careers/roles/7663706?gh_jid=7663706
 ,100,Sierra,Enterprise Sales Leader ,US - Remote,Sales,2026-01-16,Ashby,,https://jobs.ashbyhq.com/Sierra/a4376f1f-10bd-4804-899e-4b98b8245198
 ,100,Sierra,"Enterprise Sales Leader, Healthcare",US - Remote,Sales,2026-07-10,Ashby,,https://jobs.ashbyhq.com/Sierra/7ffb9df7-d413-45b1-91a4-27702f26ef6d
 ,100,Sierra,"Enterprise Sales Leader, Retail",US - Remote,Sales,2026-07-10,Ashby,,https://jobs.ashbyhq.com/Sierra/675b6dab-6f04-4d9e-a6bd-c001f2784c0b
 ,100,Sparrow,Account Executive II,US Remote,Sales,2022-11-30,Ashby,Interviewing,https://jobs.ashbyhq.com/sparrow/7a3ff3d1-7d93-4af2-8f9c-685d84200d49
 ,100,Sprout Social,"Account Executive, Enterprise",Remote US,,2026-11-02,Greenhouse,,https://sproutsocial.com/careers/open-positions/8335144/?gh_jid=8335144
-,100,Sprout Social,"Account Executive, Large Enterprise",Remote US,,2026-11-06,Greenhouse,,https://sproutsocial.com/careers/open-positions/8359923/?gh_jid=8359923
 ,100,Sprout Social,"Account Executive, Large Enterprise (Regulated Industries)",Remote US,,2026-11-06,Greenhouse,,https://sproutsocial.com/careers/open-positions/8359936/?gh_jid=8359936
 ,100,Sprout Social,"Account Executive, Mid Market Sales, Public Sector",Remote US,,2026-09-10,Greenhouse,,https://sproutsocial.com/careers/open-positions/8178522/?gh_jid=8178522
 ,100,Toast,"Flex Territory Account Executive, SMB - Denver, CO","Denver, CO",,2026-09-28,Greenhouse,,https://careers.toasttab.com/jobs?gh_jid=8236814
-,100,Toast,"Inside Account Executive, SMB - Remote",Remote,,2025-05-06,Greenhouse,,https://careers.toasttab.com/jobs?gh_jid=6814934
+,100,Toast,"Mid Market Account Executive, Toast Retail","Remote, United States",,2026-09-02,Greenhouse,,https://careers.toasttab.com/jobs?gh_jid=8173946
 ,100,Toast,"Territory Account Executive, SMB - Denver, CO","Denver, CO",,2026-10-09,Greenhouse,,https://careers.toasttab.com/jobs?gh_jid=8265429
 ,100,Twilio,Account Executive 4,Remote - US,,2026-10-22,Greenhouse,,https://job-boards.greenhouse.io/twilio/jobs/8249615
 ,100,Twilio,GTM Innovation Account Executive,Remote - US,,2026-09-17,Greenhouse,,https://job-boards.greenhouse.io/twilio/jobs/8209103
 ,100,Twilio,Senior Account Executive,Remote - US,,2026-10-29,Greenhouse,,https://job-boards.greenhouse.io/twilio/jobs/8327434
 ,100,Twilio,Strategic Account Executive 4 - Regverts,Remote - US,,2026-10-12,Greenhouse,,https://job-boards.greenhouse.io/twilio/jobs/8261705
-,100,Twilio,Strategic Account Executive 5,Remote - US,,2026-09-29,Greenhouse,,https://job-boards.greenhouse.io/twilio/jobs/8241250
 ,100,Vanta,"Account Executive, SLED Government - East","Washington, D.C. (Remote)",Revenue,2026-09-18,Ashby,,https://jobs.ashbyhq.com/vanta/c3b74285-982c-4648-bb79-d62c5b0adaf4
-,100,Vanta,"Account Executive, Early Stage",Remote U.S.,Revenue,2026-07-24,Ashby,,https://jobs.ashbyhq.com/vanta/ffc75064-fbdc-4cd1-bf0e-a4ace20dce81
+,100,Vanta,"Account Executive, Early Stage",Remote U.S.,Revenue,2026-11-16,Ashby,,https://jobs.ashbyhq.com/vanta/ffc75064-fbdc-4cd1-bf0e-a4ace20dce81
 ,100,Vanta,"Account Executive, Enterprise",Remote U.S.,Revenue,2026-09-21,Ashby,,https://jobs.ashbyhq.com/vanta/ef741fff-829e-4a9b-bca3-932f414db957
 ,100,Vanta,Senior Account Executive,Remote U.S.,Revenue,2026-10-22,Ashby,,https://jobs.ashbyhq.com/vanta/0ab177a8-3ea8-4b91-9a55-bfef435b0cfc
 ,100,Vanta,"Account Executive, Federal",Remote U.S.,Revenue,2026-10-26,Ashby,,https://jobs.ashbyhq.com/vanta/cecaa30a-37a2-42aa-980e-ca44db8fdb34
@@ -174,13 +178,13 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,100,Writer,Strategic account executive (Central),"Chicago, IL (Remote)",Sales,2026-11-03,Ashby,,https://jobs.ashbyhq.com/WRITER/ea812f51-27ed-4d9a-892f-c6f7f0411e32
 ,100,Zip,Strategic Account Executive - West Coast,Remote - US,Sales,2026-11-12,Ashby,,https://jobs.ashbyhq.com/zip/957c81ac-7ff7-4d1b-9b4b-3eb60305b6da
 ,100,Zip,Enterprise Account Executive - Central,Remote - US,Sales,2026-10-30,Ashby,,https://jobs.ashbyhq.com/zip/f5318e56-1fb8-43ba-917c-83983ac7d9d5
+,100,Zip,Enterprise Architect (Pre-Sales),Remote - US,Pre-Sales,2026-10-13,Ashby,,https://jobs.ashbyhq.com/zip/b5a21cc6-7d36-444a-a1fb-cb3f56d5e38b
 ,100,Zip,Enterprise Account Executive - Southeast,Remote - US,Sales,2026-08-05,Ashby,,https://jobs.ashbyhq.com/zip/e6abd4e2-a858-43d3-8d59-6788522c9956
 ,100,Zip,Strategic Account Executive - East Coast,Remote - US,Sales,2026-11-12,Ashby,,https://jobs.ashbyhq.com/zip/ab9a3cd5-5244-43ab-a219-20163567daa4
 ,100,Zip,Strategic Account Executive - Central ,Remote - US,Sales,2026-11-11,Ashby,,https://jobs.ashbyhq.com/zip/32a9122b-7e07-4a2c-ace7-0875fbd1f74b
 ,100,Zip,Strategic Account Executive - Manufacturing,Remote - US,Sales,2026-11-04,Ashby,,https://jobs.ashbyhq.com/zip/6a1d5f7f-d582-4be0-99d9-48610d067f1d
 ,100,ZoomInfo,Senior Account Manager (Enterprise),Remote,,2026-04-27,Greenhouse,,https://www.zoominfo.com/careers?gh_jid=8504483002
 ,75,1Password,"Senior Manager, Business Development","Austin, TX (Remote)",GTM,2026-10-18,Ashby,,https://jobs.ashbyhq.com/1password/883a6d5f-95de-43fa-9fdc-b0608ed6a7a5
-,75,6sense,Sr. Enterprise Account Executive,United States,,2026-10-29,Greenhouse,,https://boards.greenhouse.io/6sense/jobs/8314146?gh_jid=8314146
 ,75,Abnormal Security,"AI Security Sales Executive, Bay Area",Remote - USA,,2026-10-21,Greenhouse,,https://abnormal.ai/careers/jobs/8039593003?gh_jid=8039593003
 ,75,Abnormal Security,"AI Security Sales Executive, North Central",Remote - USA,,2026-10-21,Greenhouse,,https://abnormal.ai/careers/jobs/8039070003?gh_jid=8039070003
 ,75,Abnormal Security,"AI Security Sales Executive, Northeast",Remote - USA,,2026-10-21,Greenhouse,,https://abnormal.ai/careers/jobs/8039130003?gh_jid=8039130003
@@ -194,10 +198,8 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,75,Asana,"Emerging Enterprise Account Executive, Healthcare",New York City,,2026-11-04,Greenhouse,,https://www.asana.com/jobs/apply/8268877?gh_jid=8268877
 ,75,Asana,"Enterprise Account Executive, Healthcare",New York City,,2026-11-09,Greenhouse,,https://www.asana.com/jobs/apply/8317270?gh_jid=8317270
 ,75,Braze,Account Executive - Open Application,New York City,,2026-05-22,Greenhouse,,https://job-boards.greenhouse.io/braze/jobs/7954008
-,75,Braze,"Account Executive, Scale, Financial Services",New York City,,2026-08-13,Greenhouse,,https://job-boards.greenhouse.io/braze/jobs/8129309
-,75,Braze,"Account Manager, Emerging Enterprise",New York City,,2026-09-17,Greenhouse,,https://job-boards.greenhouse.io/braze/jobs/8211991
+,75,Braze,"Senior Account Executive, Emerging Enterprise",New York City,,2026-07-20,Greenhouse,,https://job-boards.greenhouse.io/braze/jobs/8074838
 ,75,Brex,"Enterprise Account Executive, Embedded Finance","New York, New York, United States",,2026-04-13,Greenhouse,,https://www.brex.com/careers/8502529002?gh_jid=8502529002
-,75,Brex,Enterprise Client Sales Executive,"New York, New York, United States",,2026-07-31,Greenhouse,,https://www.brex.com/careers/8662162002?gh_jid=8662162002
 ,75,Carta,"Account Executive, Legal Services","New York City, New York",,2026-07-28,Greenhouse,,https://job-boards.greenhouse.io/carta/jobs/7817118003
 ,75,Carta,"Account Executive, PE Standard","San Francisco, CA, New York City, New York",,2026-08-04,Greenhouse,,https://job-boards.greenhouse.io/carta/jobs/7824339003
 ,75,Carta,"Account Executive, SMB","New York City, New York",,2026-06-25,Greenhouse,,https://job-boards.greenhouse.io/carta/jobs/7782040003
@@ -213,7 +215,6 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,75,Datadog,"Manager, Business Recruiting - Enterprise Sales","New York, New York, USA",,2026-09-28,Greenhouse,,https://careers.datadoghq.com/detail/8223858/?gh_jid=8223858
 ,75,Datadog,"Manager, Commercial Sales","Denver, Colorado, USA",,2026-10-13,Greenhouse,,https://careers.datadoghq.com/detail/8172091/?gh_jid=8172091
 ,75,Datadog,"Recruiter, GTM","Boston, Massachusetts, USA; Denver, Colorado, USA; New York, New York, USA",,2026-05-18,Greenhouse,,https://careers.datadoghq.com/detail/7927485/?gh_jid=7927485
-,75,Datadog,Strategic Account Executive (SLED),"Boston, Massachusetts, USA; New York, New York, USA",,2025-12-03,Greenhouse,,https://careers.datadoghq.com/detail/7314667/?gh_jid=7314667
 ,75,Datadog,Technical Account Manager 2 - West,"Denver, Colorado, USA",,2026-06-29,Greenhouse,,https://careers.datadoghq.com/detail/8026831/?gh_jid=8026831
 ,75,Datadog,Technical Account Manager 3 - Denver,"Denver, Colorado, USA",,2026-11-09,Greenhouse,,https://careers.datadoghq.com/detail/8350824/?gh_jid=8350824
 ,75,EliseAI,Mid-Market Account Executive | Housing,New York City,Sales,2025-06-20,Ashby,,https://jobs.ashbyhq.com/EliseAI/85c00ebc-7d74-4f63-bebd-ed1dfdf0b442
@@ -234,6 +235,7 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,75,Figma,Senior Account Executive - Figma Weave,"San Francisco, CA • New York, NY • United States",,2026-11-06,Greenhouse,,https://boards.greenhouse.io/figma/jobs/6239959004?gh_jid=6239959004
 ,75,Figma,"Senior Account Executive, SMB","San Francisco, CA • New York, NY • United States",,2025-06-13,Greenhouse,,https://boards.greenhouse.io/figma/jobs/5565447004?gh_jid=5565447004
 ,75,Fivetran,GTM Finance Manager,"Denver, Colorado, United States, AMER; Oakland, California, United States, AMER",,2026-10-26,Greenhouse,,https://www.fivetran.com/careers/job?gh_jid=8037292003
+,75,Fivetran,GTM Strategy & Planning Manager,"Denver, Colorado, United States, AMER",,2026-10-06,Greenhouse,,https://www.fivetran.com/careers/job?gh_jid=8014715003
 ,75,GitLab,"Recruiter,  Sales (AMER)","Remote, United States",,2026-10-08,Greenhouse,,https://job-boards.greenhouse.io/gitlab/jobs/8869149002
 ,75,GitLab,"Senior Product Manager, CRM & GTM Systems","Remote, United States",,2026-10-02,Greenhouse,,https://job-boards.greenhouse.io/gitlab/jobs/8855883002
 ,75,Glean,"Mid-Market Account Executive, East","New York, NY",,2026-10-22,Greenhouse,,https://job-boards.greenhouse.io/gleanwork/jobs/4745899005
@@ -245,12 +247,12 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,75,Gusto,Summer Opportunities - Retirement Sales AE,"Denver, CO - Hybrid",,2026-04-20,Greenhouse,,https://job-boards.greenhouse.io/gusto/jobs/7833882
 ,75,Harvey,"Corporate Business Development Manager, Product",New York (Remote),Business Development,2026-07-16,Ashby,,https://jobs.ashbyhq.com/harvey/9fe1324c-8eeb-4138-ab85-f4d75968e48a
 ,75,Harvey,"Sales Manager, Public Sector",Washington DC (Remote),Go to Market,2026-08-19,Ashby,,https://jobs.ashbyhq.com/harvey/1b2c2891-8152-4cc5-8bd1-f2cf0a552532
-,75,Klaviyo,Partner Account Manager,"Denver, CO",,2026-09-25,Greenhouse,,https://www.klaviyo.com/careers/jobs/8005686003?gh_jid=8005686003
 ,75,Mercury,Account Executive - Startups,"New York, NY or San Francisco, CA",,2026-10-28,Greenhouse,,https://job-boards.greenhouse.io/mercury/jobs/6235209004
 ,75,MongoDB,"Senior Compensation Manager, Sales",Atlanta; Austin; Baltimore; Boston; Chicago; Dallas; Denver; New York City; Philadelphia; United States; Washington DC,,2026-09-16,Greenhouse,,https://www.mongodb.com/careers/job/?gh_jid=8208271
 ,75,Motive,"Commercial Counsel, Sales",United States - Remote,,2026-11-05,Greenhouse,,https://job-boards.greenhouse.io/gomotive/jobs/8922102002
 ,75,Motive,Manager/Senior Manager FP&A- GTM,United States - Remote,,2026-10-29,Greenhouse,,https://job-boards.greenhouse.io/gomotive/jobs/8922857002
 ,75,Motive,Sales Recruiter II,United States - Remote,,2026-10-30,Greenhouse,,https://job-boards.greenhouse.io/gomotive/jobs/8918232002
+,75,Navan,"Mid-Market Account Executive, M&E","New York, NY",,2026-10-21,Greenhouse,,https://navan.com/careers/openings?gh_jid=8311087
 ,75,Navan,"Senior Manager, Client Experience (Pre-Sales Solutions & Scoping)",Remote (USA),,2026-10-20,Greenhouse,,https://navan.com/careers/openings?gh_jid=8304200
 ,75,Notion,Sales Recruiter,"New York, New York (Remote)",People,2026-08-25,Ashby,,https://jobs.ashbyhq.com/notion/f663839e-46ac-44ad-9720-da2b6aa28093
 ,75,Notion,"Business Development Manager, Product & Platform","New York, New York (Remote)",Product Management,2026-07-02,Ashby,,https://jobs.ashbyhq.com/notion/f603aedb-1454-4a75-b2f0-a3afb2a8f973
@@ -261,7 +263,6 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,75,PagerDuty,Account Manager- DC,Remote (USA),,2026-03-04,Greenhouse,,https://job-boards.greenhouse.io/pagerduty/jobs/5819455004
 ,75,PagerDuty,Account Manager (US),Remote (USA),,2026-03-03,Greenhouse,,https://job-boards.greenhouse.io/pagerduty/jobs/5818237004
 ,75,PagerDuty,"Senior FP&A Manager, GTM","Remote (USA - San Francisco, CA)",,2026-08-10,Greenhouse,,https://job-boards.greenhouse.io/pagerduty/jobs/6131057004
-,75,Qualtrics,"Associate General Counsel, GTM & Commercial Legal",United States (Remote),,2026-11-06,Greenhouse,,https://www.qualtrics.com/careers/us/en/job/8357274?gh_jid=8357274
 ,75,Qualtrics,Financial Services Front Line Sales Leader,United States (Remote),,2026-09-18,Greenhouse,,https://www.qualtrics.com/careers/us/en/job/8212160?gh_jid=8212160
 ,75,Qualtrics,Front Line Sales Leader - Life Sciences - Corporate,United States (Remote),,2026-10-20,Greenhouse,,https://www.qualtrics.com/careers/us/en/job/8285327?gh_jid=8285327
 ,75,Qualtrics,Healthcare Provider Account Management Front Line Leader - Corporate Sales (East Market),United States (Remote),,2026-10-26,Greenhouse,,https://www.qualtrics.com/careers/us/en/job/8318629?gh_jid=8318629
@@ -284,7 +285,6 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,75,Thoropass,Commercial Account Executive,United States,,2026-05-20,Greenhouse,,https://job-boards.greenhouse.io/thoropass/jobs/6001423004
 ,75,Twilio,Americas Sales Business Partner Manager,Remote - US,,2026-10-22,Greenhouse,,https://job-boards.greenhouse.io/twilio/jobs/8304419
 ,75,Twilio,Digital Sales Representative - Activate,Remote - US,,2026-09-16,Greenhouse,,https://job-boards.greenhouse.io/twilio/jobs/8205254
-,75,Twilio,Digital Sales Representative - Expansion,Remote - US,,2026-11-02,Greenhouse,,https://job-boards.greenhouse.io/twilio/jobs/8327942
 ,75,Twilio,"Staff, Technical Account Manager",Remote - US,,2026-11-04,Greenhouse,,https://job-boards.greenhouse.io/twilio/jobs/8350197
 ,75,Vanta,"GTM Program Manager, Revenue Onboarding","San Francisco, CA (Remote)",Revenue,2026-10-29,Ashby,,https://jobs.ashbyhq.com/vanta/b64b6e72-7c71-446f-b6ce-662330b910e8
 ,75,Vanta,"Sales Manager, Early Stage",Remote U.S.,Revenue,2026-09-23,Ashby,,https://jobs.ashbyhq.com/vanta/0c4ff8a3-c916-467b-b3e2-053f009f3ba4
@@ -303,8 +303,10 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,75,Wiz,"Technical Account Manager, Southeast",Remote - USA,,2026-10-21,Greenhouse,,https://www.wiz.io/careers/job/4723042006/:title?gh_jid=4723042006
 ,75,Writer,Sales recruiter (Contract),"San Francisco, CA (Remote)",People,2026-11-04,Ashby,,https://jobs.ashbyhq.com/WRITER/f893ffbb-3303-4aa4-98ef-04e080aa1898
 ,75,Zip,Senior Sales Programs Manager,Remote - US,Sales,2026-11-03,Ashby,,https://jobs.ashbyhq.com/zip/83b90a10-2513-4239-9f70-17e980fec9ad
+,50,Braze,"Principal, Strategic AI Sales",New York City,,2026-09-09,Greenhouse,,https://job-boards.greenhouse.io/braze/jobs/8189650
 ,50,Brex,Sales Account Manager II,"New York, New York, United States",,2026-09-29,Greenhouse,,https://www.brex.com/careers/8762350002?gh_jid=8762350002
 ,50,Carta,Business Development Manager I,"New York City, New York",,2026-09-16,Greenhouse,,https://job-boards.greenhouse.io/carta/jobs/7918311003
+,50,Datadog,Major Account Manager,"Boston, Massachusetts, USA; New York, New York, USA",,2025-12-17,Greenhouse,,https://careers.datadoghq.com/detail/7409198/?gh_jid=7409198
 ,50,Datadog,"Manager, Business Recruiting - GTM Ecosystems","New York, New York, USA",,2026-10-21,Greenhouse,,https://careers.datadoghq.com/detail/8306557/?gh_jid=8306557
 ,50,Datadog,Senior Sponsorship Sales Manager - Global Conferences,"New York, New York, USA; San Francisco, California, USA",,2026-09-23,Greenhouse,,https://careers.datadoghq.com/detail/8214090/?gh_jid=8214090
 ,50,Datadog,Technical Account Manager 2 - New York,"New York, New York, USA",,2026-11-10,Greenhouse,,https://careers.datadoghq.com/detail/8357178/?gh_jid=8357178
@@ -325,6 +327,7 @@ NEW,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://
 ,50,Mercury,Senior Sales Manager - Technology,"New York, NY or San Francisco, CA",,2026-10-02,Greenhouse,,https://job-boards.greenhouse.io/mercury/jobs/6214788004
 ,50,Mixpanel,"Strategic Finance Associate, GTM","New York City, US (Hybrid)",,2026-09-30,Greenhouse,,https://job-boards.greenhouse.io/mixpanel/jobs/8075972
 ,50,MongoDB,"Senior Manager, GTM Customer Recruiting",New York City,,2026-10-12,Greenhouse,,https://www.mongodb.com/careers/job/?gh_jid=8229901
+,50,Navan,GTM Systems Manager,"New York, NY",,2026-11-12,Greenhouse,,https://navan.com/careers/openings?gh_jid=8381986
 ,50,Okta,Nonprofit GTM Strategy Manager,"Bellevue, Washington; Chicago, Illinois; New York, New York; Washington, DC",,2026-11-03,Greenhouse,,https://www.okta.com/company/careers/opportunity/8284216?gh_jid=8284216
 ,50,Outreach,Senior GTM AI Advisor (Customer Success Manager),United States,Customer Success Managers,2026-07-29,Lever,,https://jobs.lever.co/outreach/91b45521-0ad3-499f-8c05-514beb39c2e5
 ,50,Secureframe,Account Manager,"Washington D.C, New York",Sales,2025-12-19,Lever,,https://jobs.lever.co/secureframe/0dd5ce86-164a-4156-9f98-7167adf54d73
